@@ -5,22 +5,29 @@ body {
 
 #quotebox {
 	border: 1px solid black;
-	height: 300px;
+	height: 400px;
 	width: 60%;
-	margin: 0 auto 0 auto;
+	margin: 100px auto 0 auto;
 }
 
-.button {
+.btn {
 	font-family: 'Muli', sans-serif;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 0 0 0 340px;
+	margin: 0 0 0 70%;
 }
 
-#quotecaption {
+.quote-text {
 	border: 1px solid black;
-	height: 70%;
+	height: 60%;
 	width: 80%;
 	margin: 20px auto;
+}
+
+.quote-origin {
+	border: 1px solid black;
+	height: 10%;
+	width: 20%;
+	margin: 20px 70%;
 }
