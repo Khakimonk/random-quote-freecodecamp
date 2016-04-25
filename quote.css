@@ -35,3 +35,8 @@ body {
 footer {
     height: 100px;
 }
+
+#quoteBody p {
+    padding-top: 10%;
+    font-size: 200%;
+}
