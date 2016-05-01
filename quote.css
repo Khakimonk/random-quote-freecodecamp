@@ -1,13 +1,21 @@
 body {
 	text-align: center;
 	font-family: 'Muli', sans-serif;
+    background-image: url(http://i.imgur.com/n8yTjYM.png);
+    background-size: cover;
+}
+
+h1{
+    background-color: #F4F4F4;
 }
 
 #quotebox {
-	border: 1px solid black;
+    border-radius: 5px;
 	height: 400px;
 	width: 60%;
 	margin: 100px auto 0 auto;
+    padding: 15px;
+    background-color: #F4F4F4;
 }
 
 .btn {
@@ -15,21 +23,29 @@ body {
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 0 0 0 70%;
+    margin: 0 30px;
+    background-color: #4C4C4C;
+    color: white;
+	float: right;
+    clear: both;
 }
 
 .quote-text {
-	border: 1px solid black;
-	height: 60%;
-	width: 80%;
-	margin: 20px auto;
+    background-color: white;
+	margin: 30px;
+    padding: 10px;
+    font-family: 'Muli', sans-serif;
+    border-radius: 5px;
 }
 
 .quote-origin {
-	border: 1px solid black;
-	height: 10%;
-	width: 20%;
-	margin: 20px 70%;
+    background-color: white;
+	margin: -20px 30px 15px;
+    width: auto;
+    float: right;
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer {
